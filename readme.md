@@ -1,35 +1,15 @@
-Here’s your complete `README.md` file with the content properly formatted in **Markdown**, ready to use as-is:
+Great! Here's your finalized `README.md` file with your name included:
 
 ---
 
 ```markdown
 # 🌦️ CityWeather – React + TypeScript Weather App
 
-CityWeather is a simple and responsive weather application that allows users to search for real-time weather information by city name. Built with React, TypeScript, Tailwind CSS, and OpenWeatherMap API.
+CityWeather is a simple weather app built with React, TypeScript, and Tailwind CSS. It fetches real-time weather data from the OpenWeatherMap API based on user input (city name).
 
 ---
 
-## 🚀 Features
-
-- 🔍 Search weather by city name  
-- 🌡️ Displays temperature, humidity, wind speed, and weather description  
-- ⚙️ Fetches live weather data using OpenWeatherMap API  
-- ❌ Handles invalid input and city not found errors (e.g., 404)  
-- 🎨 Responsive UI built with Tailwind CSS  
-- 🔐 Environment variable support for API key management  
-
----
-
-## 🛠️ Tech Stack
-
-- **React** (with Vite or Create React App)  
-- **TypeScript**  
-- **Tailwind CSS**  
-- **OpenWeatherMap API**
-
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 
@@ -37,7 +17,7 @@ src/
 ├── App.tsx
 ├── main.tsx
 ├── components/
-│   ├── Home.tsx
+│   └── Home.tsx
 ├── App.css
 ├── index.css
 └── env.d.ts
@@ -46,77 +26,46 @@ src/
 
 ---
 
-## 🔧 Getting Started
+## ⚙️ Setup Instructions
 
-### 1. Clone the Repository
+### 1. Clone the project
 
 ```bash
 git clone https://github.com/your-username/cityweather.git
 cd cityweather
 ````
 
-### 2. Install Dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
-# or
-yarn install
 ```
 
-### 3. Set Up Environment Variable
+### 3. Add your API key
 
-Create a `.env` file in the root of your project and add your OpenWeatherMap API key.
+Create a `.env` file in the root directory:
 
-#### For **Vite**:
-
-```env
-VITE_WEATHER_API_KEY=your_api_key_here
+```
+VITE_WEATHER_API_KEY=your_openweathermap_api_key
 ```
 
-#### For **Create React App (CRA)**:
+> Don’t forget to restart your dev server after adding the `.env` file.
 
-```env
-REACT_APP_WEATHER_API_KEY=your_api_key_here
-```
-
-> ⚠️ Make sure you **restart your dev server** after adding the `.env` file.
-
-### 4. Run the App
-
-For Vite:
+### 4. Run the app
 
 ```bash
 npm run dev
 ```
 
-For CRA:
-
-```bash
-npm start
-```
-
-Then open:
-
-* [http://localhost:5173](http://localhost:5173) (Vite)
-* [http://localhost:3000](http://localhost:3000) (CRA)
+Open your browser at [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🌐 API Reference – OpenWeatherMap
+## 🌐 API Used
 
-**Endpoint**
+* [OpenWeatherMap](https://openweathermap.org/api)
 
-```
-https://api.openweathermap.org/data/2.5/weather
-```
-
-**Query Parameters**
-
-* `q`: City name (e.g. `London`)
-* `appid`: Your API key
-* `units=metric`: Return temperature in Celsius
-
-**Sample Request**
+Sample API call:
 
 ```
 https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY&units=metric
@@ -124,53 +73,22 @@ https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY&unit
 
 ---
 
-## 🔐 Environment Variable Security
+## 📌 Features
 
-> ⚠️ Environment variables are still exposed in client-side apps.
-> To **fully hide** your API key, consider using a backend proxy (Node.js, Express, etc.) to make secure API requests.
-
----
-
-## 📌 Future Enhancements
-
-* 📍 Add geolocation support (get weather based on current location)
-* 🗓️ Show 5-day or hourly weather forecasts
-* 🌙 Dark/light theme toggle
-* 🌍 Multi-language support
-* 📱 Mobile-first design improvements
+* Search weather by city
+* Shows temperature, humidity, wind speed, and weather description
+* Handles empty input and 404 city not found error
+* Responsive design using Tailwind CSS
 
 ---
 
-## 🙌 Credits
+## 📝 License
 
-* [React](https://reactjs.org/)
-* [TypeScript](https://www.typescriptlang.org/)
-* [OpenWeatherMap](https://openweathermap.org/)
-* [Tailwind CSS](https://tailwindcss.com/)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License © \[Your Name].
-
----
-
-## 💡 Author
-
-**Your Name**
-GitHub: [@your-username](https://github.com/your-username)
-Email: [youremail@example.com](mailto:youremail@example.com)
+MIT © Vijay Pardhu
 
 ```
 
 ---
 
-Let me know your:
-- **Actual name**
-- **GitHub username or repo link**
-- **Email**
-- **Whether you're using Vite or CRA**
-
-And I’ll personalize the author and license section for you.
+Let me know if you want this formatted for GitHub Pages, Vercel deployment, or linked to your portfolio.
 ```
