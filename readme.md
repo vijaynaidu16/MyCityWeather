@@ -37,13 +37,9 @@ src/
 ├── App.tsx
 ├── main.tsx
 ├── components/
-│   ├── SearchForm.tsx
-│   ├── WeatherCard.tsx
-│   └── NotFound.tsx
-├── assets/
+│   ├── Home.tsx
+├── App.css
 ├── index.css
-├── types/
-│   └── WeatherData.ts
 └── env.d.ts
 
 ````
