@@ -1,6 +1,4 @@
-Great! Here's your finalized `README.md` file with your name included:
 
----
 
 ```markdown
 # 🌦️ CityWeather – React + TypeScript Weather App
